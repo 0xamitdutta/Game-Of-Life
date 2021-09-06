@@ -8,3 +8,45 @@ The universe of the Game of Life is an infinite two-dimensional orthogonal grid 
 4. Any dead cell with exactly three live neighbours comes to life.
 
 The initial pattern constitutes the 'seed' of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed - births and deaths happen simultaneously, and the discrete moment at which this happens is sometimes called a tick. (In other words, each generation is a pure function of the one before.) The rules continue to be applied repeatedly to create further generations.
+
+## Problem:
+The below inputs provide the pattern or initial cells in the universe, especially their (x,y) co-ordinates. The output is the state of the system in the next tick (one run of the application of all the rules) , represented in the same format - i.e. x,y coordinates of all the alive cells after one tick
+
+Input A:
+(Block pattern - Still life)
+1, 1
+1, 2
+2, 1
+2, 2
+
+![](https://i.imgur.com/FjNdFkf.png)
+
+Input B
+(Boat pattern - Still life)
+0, 1
+1, 0
+2, 1
+0, 2
+1, 2
+
+![](https://i.imgur.com/Dm6iG5G.png)
+
+Input C
+(Blinker pattern - oscillator)
+1, 1
+1, 0
+1, 2
+
+![](https://i.imgur.com/zRocQ2O.png)
+
+Input D
+(Toad pattern - two phase oscillator)
+1, 1
+1, 2
+1, 3
+2, 2
+2, 3
+2, 4
+
+![](https://i.imgur.com/aTplc3Z.png)
+
