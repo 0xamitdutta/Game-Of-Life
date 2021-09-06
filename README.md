@@ -14,39 +14,21 @@ The below inputs provide the pattern or initial cells in the universe, especiall
 
 Input A:
 (Block pattern - Still life)
-1, 1
-1, 2
-2, 1
-2, 2
 
 ![](https://i.imgur.com/FjNdFkf.png)
 
 Input B
 (Boat pattern - Still life)
-0, 1
-1, 0
-2, 1
-0, 2
-1, 2
 
 ![](https://i.imgur.com/Dm6iG5G.png)
 
 Input C
 (Blinker pattern - oscillator)
-1, 1
-1, 0
-1, 2
 
 ![](https://i.imgur.com/zRocQ2O.png)
 
 Input D
 (Toad pattern - two phase oscillator)
-1, 1
-1, 2
-1, 3
-2, 2
-2, 3
-2, 4
 
 ![](https://i.imgur.com/aTplc3Z.png)
 
